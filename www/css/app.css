@@ -1,0 +1,56 @@
+﻿  body {
+            background-image: url('../img/starsburg.jpg');
+            text-align: center;
+        }
+
+        .card .item {
+            background: none;
+        }
+
+        .no-header {
+            background: none;
+        }
+        /**
+        * Current weather
+        */
+
+        #current-weather {
+        }
+
+            #current-weather > * {
+                color: #fff;
+            }
+
+            #current-weather .current-temp {
+                font-size: 70px;
+                font-weight: 70;
+                margin: 0;
+                padding: 0;
+                line-height: 60px;
+                Color: Orange;
+            }
+
+
+
+        #temp-hi, #temp-lo {
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 25;
+        }
+
+        #temp-lo {
+            margin-left: 10px;
+        }
+
+        .temp-high {
+            display: inline-block;
+            width: 30px;
+            text-align: right;
+        }
+
+        .temp-low {
+            display: inline-block;
+            width: 30px;
+            text-align: right;
+            color: #4a87ee;
+        }
